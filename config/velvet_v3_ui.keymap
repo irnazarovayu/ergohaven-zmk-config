@@ -71,6 +71,28 @@
 
             label = "KUBECTL_NAMESPACE";
         };
+
+        kubectl_production: kubectl_production {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_wait_time 10>,
+                <&kp K &kp U &kp B &kp E &kp C &kp T &kp L &kp SPACE &kp MINUS &kp N &kp SPACE &kp P &kp R &kp O &kp TAB>,
+                <&macro_wait_time 10>;
+
+            label = "KUBECTL_PRODUCTION";
+        };
+
+        kubectl_dev: kubectl_dev {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_wait_time 10>,
+                <&kp K &kp U &kp B &kp E &kp C &kp T &kp L &kp SPACE &kp MINUS &kp N &kp SPACE &kp D &kp E &kp V &kp TAB>,
+                <&macro_wait_time 10>;
+
+            label = "KUBECTL_DEV";
+        };
     };
 
     keymap {
