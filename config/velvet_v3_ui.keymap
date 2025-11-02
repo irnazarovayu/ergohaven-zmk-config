@@ -53,6 +53,24 @@
             bindings = <&kp EXCL>;
             key-positions = <34 35>;
         };
+
+        kubectl-namespace {
+            bindings = <&kubectl_namespace>;
+            key-positions = <20 30>;
+        };
+    };
+
+    macros {
+        kubectl_namespace: kubectl_namespace {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_wait_time 10>,
+                <&kp K &kp U &kp B &kp E &kp C &kp T &kp L &kp SPACE &kp MINUS &kp N>,
+                <&macro_wait_time 10>;
+
+            label = "KUBECTL_NAMESPACE";
+        };
     };
 
     keymap {
