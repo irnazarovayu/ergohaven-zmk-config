@@ -58,6 +58,16 @@
             bindings = <&kubectl_namespace>;
             key-positions = <20 30>;
         };
+
+        kubeclt-prod {
+            bindings = <&kubectl_production>;
+            key-positions = <20 10>;
+        };
+
+        kubectl-dev {
+            bindings = <&kubectl_dev>;
+            key-positions = <20 15>;
+        };
     };
 
     macros {
