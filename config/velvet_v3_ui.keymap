@@ -45,7 +45,7 @@
         };
 
         question {
-            bindings = <&kp RU_QUESTION>;
+            bindings = <&kp QMARK>;
             key-positions = <22 23>;
         };
 
