@@ -44,16 +44,6 @@
             key-positions = <27 28>;
         };
 
-        question {
-            bindings = <&kp LG(LC(RU_QMARK))>;
-            key-positions = <22 23>;
-        };
-
-        excl {
-            bindings = <&kp RU_EXCL>;
-            key-positions = <34 35>;
-        };
-
         kubectl-namespace {
             bindings = <&kubectl_namespace>;
             key-positions = <20 30>;
