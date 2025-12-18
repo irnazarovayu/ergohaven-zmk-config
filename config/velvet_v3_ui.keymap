@@ -146,7 +146,7 @@
             bindings = <
 &trans  &trans  &trans    &kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &trans                    &trans  &trans    &trans    &trans    &trans  &trans
 &trans  &mo 5   &mkp MB3  &mkp MB2              &mkp MB1              &mo 6                     &mo 6   &mkp MB1  &mkp MB2  &mkp MB3  &mo 5   &trans
-&trans  &trans  &trans    &kp LC(C)             &kp LC(V)             &trans                    &trans  &trans    &trans    &trans    &trans  &trans
+&trans  &trans  &trans    &kp LG(C)             &kp LG(V)             &trans                    &trans  &trans    &trans    &trans    &trans  &trans
                 &trans    &trans                &trans                &trans  &trans    &trans  &trans  &trans    &trans    &trans
             >;
 
